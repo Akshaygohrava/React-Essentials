@@ -11,7 +11,7 @@ function App() {
       <hr />
 
       
-      
+      <p>Note this update of submodule of Full stack</p>
     </>
   )
 }
