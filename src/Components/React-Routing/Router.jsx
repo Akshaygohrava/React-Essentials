@@ -6,7 +6,7 @@ import Products from './Products'
 import Recipes from './Recipes'
 const router = createBrowserRouter ([
     {
-        path: "",
+        path: "Home",
         element: <Home />
     },{
         path: "use-effect-1",
