@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Category } from "./Category";
+import Category from "./Category"
+
 const Products = () => {
     const Products = [
         {id:101,name: "laptop", price: 45000 },
@@ -9,8 +10,8 @@ const Products = () => {
     const [products, setProducts] = useState(Products);
         return (
             <>
-            <h1 className="text-center">This is from Product Components !</h1>
-            <Category></Category>
+            <h1 className="text-center">This is Product Components !</h1>
+            
               <div className="container">
                  {products.map((e) => (
                      <div className="col bg-warning">
@@ -20,6 +21,8 @@ const Products = () => {
                      </div>
                  ))}
               </div>
+            <Category Id={101} Name={"Akshay"} />
+
             </>
         )
 }
