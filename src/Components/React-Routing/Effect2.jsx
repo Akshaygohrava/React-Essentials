@@ -16,8 +16,8 @@ export default function Effect2() {
   }, [])
   return (
     <>
+        <Routes />
          <h2>This is Effect2 Component !</h2>
-         <Routes />
          <p>Use Effect Hooks in API Fetching</p>
          <div>{quotes.map((q, index) => <p key={index}>{q.quote}</p>)}</div>
     </>

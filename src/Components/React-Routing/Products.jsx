@@ -22,8 +22,9 @@ export default function Produccts() {
 
   return (
     <div>
+        <Routes />
         <h2>This is Products Components</h2>
-        <Routes></Routes> <br />
+       <br />
         <h2>Fetch API Using Use Effect </h2>
        
        {products && products.map(data => {
