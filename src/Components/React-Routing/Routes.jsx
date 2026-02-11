@@ -8,6 +8,8 @@ export default function Routes() {
        <Link className='btn btn-primary' to={"/"}>Home</Link>
        <Link className='btn btn-primary' to={"/Products"}>Products</Link>
        <Link className='btn btn-primary' to={"/Recipes"}>Recipes</Link>
+       <Link className='btn btn-primary' to={"/Formhandling1"}>Formhandling1</Link>
+       <Link className='btn btn-primary' to={"/Formhandling2"}>Formhandling2</Link>
     </>
   )
 }
