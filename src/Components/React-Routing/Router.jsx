@@ -6,6 +6,7 @@ import Products from './Products'
 import Recipes from './Recipes'
 import Formhandling1 from './Formhandling1'
 import Formhandling2 from './Formhandling2'
+import Formhandling3 from './Formhandling3'
 const router = createBrowserRouter ([
     {
         path: "/",
@@ -28,6 +29,9 @@ const router = createBrowserRouter ([
     },{
         path: "Formhandling2",
         element: <Formhandling2 />
+    },{
+        path: "Formhandling3",
+        element: <Formhandling3 />
     }
 ])
 const Router = () => {
