@@ -2,6 +2,9 @@ import React from 'react'
 
 export default function D() {
   return (
-    <div>D</div>
+    <div>
+    <p>This is D Component !</p>
+
+    </div>
   )
 }

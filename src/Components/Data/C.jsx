@@ -2,6 +2,10 @@ import React from 'react'
 
 export default function C() {
   return (
-    <div>C</div>
+    <div>
+    <p>This is C Component</p>
+    
+
+    </div>
   )
 }

@@ -38,7 +38,7 @@ const router = createBrowserRouter ([
         path: "Formhandling4",
         element: <Formhandling4 />
     },{
-        path: "../Data/Context",
+        path: "Context",
         element: <Context />
     }
 ])
