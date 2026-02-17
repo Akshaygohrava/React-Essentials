@@ -11,6 +11,7 @@ export default function Routes() {
        <Link className='btn btn-primary' to={"/Formhandling1"}>Formhandling1</Link>
        <Link className='btn btn-primary' to={"/Formhandling2"}>Formhandling2</Link>
        <Link className='btn btn-primary' to={"/Formhandling3"}>Formhandling3</Link>
+       <Link className='btn btn-primary' to={"/Formhandling4"}>Formhandling4</Link>
     </>
   )
 }
