@@ -8,6 +8,7 @@ import Formhandling1 from './Formhandling1'
 import Formhandling2 from './Formhandling2'
 import Formhandling3 from './Formhandling3'
 import Formhandling4 from './Formhandling4'
+import Context from '../Data/Context'
 const router = createBrowserRouter ([
     {
         path: "/",
@@ -36,6 +37,9 @@ const router = createBrowserRouter ([
     },{
         path: "Formhandling4",
         element: <Formhandling4 />
+    },{
+        path: "../Data/Context",
+        element: <Context />
     }
 ])
 const Router = () => {
