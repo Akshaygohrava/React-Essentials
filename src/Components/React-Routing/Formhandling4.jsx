@@ -9,7 +9,7 @@ function Formhandling4() {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const password = Watch("password");
+//   const password = Watch("password");
   const submitHandler = (data) => {
     console.log(data);
   };
