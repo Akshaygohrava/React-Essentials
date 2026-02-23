@@ -39,7 +39,7 @@ export default function Routers() {
   return (
     <>
              <RouterProvider router={router} />
-             <h2>hello React Routing 2.0 !</h2>
+             <h2>hello React Routing 2.0 !.......</h2>
                <Reducer></Reducer>
     
 
