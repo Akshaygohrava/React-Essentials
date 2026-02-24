@@ -6,6 +6,15 @@ import Register from "../../Components/React-Routing-2.0/Register";
 import Product from "../../Components/React-Routing-2.0/Product";
 import Notfound from "./Notfound";
 import Reducer from "./common/Reducer";
+import Errorboundary from "../React-Error/Error-boundary";
+
+function ErrorMessage() {
+    return (
+        <>
+             <h3>Something Went Wrong</h3>
+        </>
+    )
+}
 
 const router = createBrowserRouter([
   {
@@ -37,9 +46,11 @@ const router = createBrowserRouter([
 
 export default function Routers() {
   return (
-    <>
+    <>       
+            <Errorboundary Fallbackcomponent={ErrorMessage}>
              <RouterProvider router={router} />
-             <h2>hello React Routing 2.0 !.... new update</h2>
+             </Errorboundary>
+              <h2>hello React Routing 2.0 !.... new update</h2>
                <Reducer></Reducer>
     
 
