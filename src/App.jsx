@@ -18,11 +18,11 @@ function App() {
   return (
     <>
       <h1>Official React Essentials Topics</h1>
-      {/* <Basic></Basic> */}
+      <Basic></Basic>
       <hr />
-      {/* <Router></Router> */}
+      <Router></Router>
       <hr />
-      {/* <Routers /> */}
+      <Routers />
       <hr />
       <Errorboundary />
 
